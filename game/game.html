@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wonder Liubi</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/game.css">
+    <script src="../game/js/game.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+    <style>
+    body {
+        background-image: url("../game/images/city.jpg");
+    }
+    #enemy {
+        background-image: url("../game/images/batt.gif");
+      }
+    </style>
+</head>
+<body>
+  <div id="Gameover">
+    <p>GAME OVER</p></br>
+    <img  id="cry" src="../game/images/cry.png">
+    <a href="fo.html"><p id="try">Try again and help  wonder woman</p></a>
+</div>
+
+  <div id="win">
+    <p>YOU WON!</p>
+    <p>Congratulation!</p>
+    <a href="fo.html"><p id="try">Try again and help  wonder woman</p></a>
+    <img  id="bang" src="../game/images/bang.png">
+</div>
+
+  <audio autoplay loop>
+      <source src="../game/mu/alien_bats.mp3" type="audio/mpeg">
+      <source src="../game/mu/alien_bats.ogg" type="audio/ogg">
+  </audio>
+    <div id="enemy"></div>
+    <div id="spaceship">
+      <img id="wonderwoman" src="../game/images/wiwi.png"></div>
+    <div id="bul"></div>
+
+<div>
+    <div id="Bullets">
+      <p>Number of bullets:</p>
+      <p id="balls">100</p>
+    </div>
+</div>
+
+<div id="hits">
+    <p>Points for Wonder Woman:</p>
+    <p id="points">0</p>
+</div>
+
+<div>
+  <a href=" index.html"><button class="start">Back in the start</button></a>
+</div>
+</body>
+</html>

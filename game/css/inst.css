@@ -1,0 +1,76 @@
+body {
+  font-family: 'Indie Flower', cursive;
+  background-image: url("../game/images/city.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+section {
+  display:inline-block;
+  position:relative;
+}
+
+#imf {
+  width:300px;
+  height:250px;
+  float:left;
+  margin-left:250px;
+  margin-top:70px;
+}
+
+#img {
+  float:right;
+  width:300px;
+  height:250px;
+  margin-left:850px;
+  margin-top:-250px;
+}
+
+button {
+  font-family: 'Indie Flower', cursive;
+  margin-left:630px;
+  margin-right:100px;
+  margin-top:10px;
+  font-weight:bold;
+  border-radius: 50px;
+  background-color: #ef2729;
+  border:2px solid #f7d919;
+  color: #f7d919;
+  text-align: center;
+  display: inline-block;
+  font-size: 26px;
+  float:left;
+}
+
+button:hover {
+  background-color:#f7d919;
+  border:2px solid #ef2729;
+  color: #ef2729;
+}
+
+#arrow {
+  margin-top: 150px;
+  margin-left: 100px;
+  width:150px;
+}
+
+#arrow:hover {
+  width:160px;
+}
+
+#space {
+  margin-top: 0px;
+  margin-left: 650px;
+  width:150px;
+  float:left;
+}
+
+#space:hover {
+  width:180px;
+}
+
+p {
+  font-size: 20px;
+  font-weight: bold;
+}
